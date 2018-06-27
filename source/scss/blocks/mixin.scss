@@ -1,0 +1,21 @@
+@mixin round-bottom-corner($color) {
+  background:
+    radial-gradient(circle at 0% 100%, transparent 9px, $color 9px) no-repeat,
+    radial-gradient(circle at 100% 100%, transparent 9px, $color 9px) no-repeat;
+  background-position: 0% 100%, 100% 100%;
+  background-size: 95% 100%, 95% 100%;
+  border: none;
+  border-radius: 0;
+}
+
+@mixin round-corner($color) {
+   background:
+    radial-gradient(circle at 0% 0%, transparent 9px, $color 9px) no-repeat,
+    radial-gradient(circle at 100% 0%, transparent 9px, $color 9px) no-repeat,
+    radial-gradient(circle at 0% 100%, transparent 9px, $color 9px) no-repeat,
+    radial-gradient(circle at 100% 100%, transparent 9px, $color 9px) no-repeat;
+  background-position: 0% 0%, 100% 0%, 0 100%, 100% 100%;
+  background-size: 55% 55%;
+  border: none;
+  border-radius: 0;
+}

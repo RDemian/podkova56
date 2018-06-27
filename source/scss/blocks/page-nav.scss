@@ -1,0 +1,10 @@
+.page-nav__relate {
+  font-weight: bold;
+  color: #ffffff;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: $color-green;
+  }
+}

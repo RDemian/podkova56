@@ -1,0 +1,19 @@
+.contacts__pass,
+.contacts__phone {
+  color: #ffffff;
+  font-weight: bold;
+
+  &:focus,
+  &:hover {
+    color: $color-green;
+    text-decoration: none;
+  }
+}
+
+.contacts__pass {
+  text-decoration: underline;
+}
+
+.contacts__phone {
+  font-size: 20px;
+}

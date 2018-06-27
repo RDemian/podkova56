@@ -70,9 +70,9 @@ gulp.task('serve', function() {
     cors: true,
     ui: false
   });
-  
+
   gulp.watch('source/js/*.js', ['copy']);
-  gulp.watch('source/sass/**/*.scss', ['style']);
+  gulp.watch('source/scss/**/*.scss', ['style']);
   gulp.watch('source/*.html',['html-copy']).on('change', server.reload);
   //gulp.watch('source/*.html').on('change', server.reload);
 });

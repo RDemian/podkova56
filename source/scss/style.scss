@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Arsenal";
+  src: url("../fonts/arsenal-regular.woff2") format("woff2"), url("../arsenal-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Arsenal";
+  src: url("../fonts/arsenal-bold.woff2") format("woff2"), url("../fonts/arsenal-bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+$color-steel: #596689;
+
+$color-grey: #f6f6f6;
+
+$color-green: #88c775;
+
+body {
+  font-family: "Arsenal", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.container {
+  min-width: 1920px;
+  max-width: 1920px;
+}
+
+.page-header__top {
+  background-color: $color-steel;
+}
+
+.page-header__bottom {
+  background-color: $color-grey;
+}
+
+@import "blocks/mixin";
+@import "blocks/page-nav";
+@import "blocks/btn";
+@import "blocks/contacts";
+@import "blocks/main-nav";
+@import "blocks/exsample";
+@import "blocks/slider";

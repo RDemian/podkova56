@@ -1,0 +1,14 @@
+.main-nav__item {
+  font-size: 17px;
+  line-height: 28px;
+  color: #212635;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  &:focus,
+  &:hover {
+    color: #596689;
+    outline: 1px solid #596689;
+    text-decoration: none;
+  }
+}
