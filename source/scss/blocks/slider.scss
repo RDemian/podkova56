@@ -1,4 +1,42 @@
 .slider {
   position: absolute;
+  top: 17px;
   right: 0;
+  z-index: 10;
+}
+
+.slide__info {
+  position: absolute;
+  top: 175px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.slide__text {
+  color: #ffffff;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 530px;
+}
+
+.slider__arrow {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  right: 25px;
+  transform: translateX(-50%);
+
+  background: url(../../img/slider-arrow.png) no-repeat;
+
+  width: 31px;
+  height: 16px;
+}
+
+.slider__arrow--prev {
+  transform: rotate(180deg);
+  right: auto;
+  left: 25px;
 }

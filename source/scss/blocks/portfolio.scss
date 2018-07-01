@@ -1,11 +1,12 @@
-.example {
+.portfolio {
+  position: relative;
   background-color: $color-steel;
   background-image: url("../../img/fone-example.png");
   background-repeat: no-repeat;
   background-size: 1920px 270px;
 }
 
-.example__text {
+.portfolio__text {
   font-size: 36px;
   line-height: 42px;
   color: #ffffff;

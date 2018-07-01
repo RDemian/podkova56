@@ -71,6 +71,7 @@ gulp.task('serve', function() {
     ui: false
   });
 
+  gulp.watch('source/img/**/*.{png,svg,jpg}', ['images']);
   gulp.watch('source/js/*.js', ['copy']);
   gulp.watch('source/scss/**/*.scss', ['style']);
   gulp.watch('source/*.html',['html-copy']).on('change', server.reload);

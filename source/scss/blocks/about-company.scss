@@ -1,0 +1,49 @@
+.about-company {
+  background: url("../../img/bg-about-company.png") no-repeat;
+  background-position: bottom;
+  background-size: auto;
+}
+
+.about-company__title {
+  font-size: 24px;
+  line-height: 43px;
+  color: #b0b0b0;
+
+  & span {
+    font-size: 47px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $color-steel;
+  }
+}
+
+.about-company__picture {
+  width: 360px;
+  height: 360px;
+  padding: 5px;
+
+  @include round-corner($color-steel);
+
+}
+
+.about-company__tezis {
+  font-size: 18px;
+  line-height: 24px;
+  color: $color-steel;
+  font-weight: bold;
+}
+
+.about-company__text {
+
+  padding-left: 50px;
+
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 15px;
+    background: url(../../img/icon-check.png);
+    width: 36px;
+    height: 35px;
+  }
+}

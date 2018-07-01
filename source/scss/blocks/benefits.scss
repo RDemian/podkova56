@@ -1,0 +1,119 @@
+.benefits {
+  background-color: $color-grey;
+  background-image:
+    url("../../img/bg-rama.png"),
+    url("../../img/triangle-white.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+
+}
+
+.benefits .content-wrap {
+  min-height: 979px;
+  background: url("../../img/bg-benefits.png") no-repeat;
+  background-position: center 60px;
+}
+
+.benefits__list {
+  position: relative;
+  width: 100%;
+  list-style: none;
+}
+
+.benefits__item {
+  position: absolute;
+  width: 255px;
+  min-height: 181px;
+  text-align: center;
+  padding-top: 120px;
+
+  background-repeat: no-repeat;
+  background-position: center 11px, center 61px;
+
+  &:hover {
+    background-color: rgba(252, 252, 252, 0.65);
+    box-shadow: 0 5px 24px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -55px;
+    left: 126px;
+    height: 55px;
+    width: 115px;
+    border-left: 3px dashed $color-steel;
+  }
+}
+
+.benefits__bg {
+  min-height: 120px;
+}
+
+.benefits__item--garant {
+  top: 180px;
+  left: 15px;
+  background-image:
+    url("../../img/icon-garant.png"),
+    url("../../img/icon-point.png");
+  &::after {
+    border-bottom: 3px dashed $color-steel;
+  }
+}
+
+.benefits__item--portfolio {
+  left: 330px;
+  background-image:
+    url("../../img/icon-cup.png"),
+    url("../../img/icon-point.png");
+}
+
+.benefits__item--factory {
+  right: 330px;
+  background-image:
+    url("../../img/icon-factory.png"),
+    url("../../img/icon-point.png");
+}
+
+.benefits__item--age {
+  top: 180px;
+  right: 15px;
+  background-image:
+    url("../../img/icon-age-12.png"),
+    url("../../img/icon-point.png");
+  &::after {
+    border-left: none;
+    border-right: 3px dashed $color-steel;
+    border-bottom: 3px dashed $color-steel;
+    right: 126px;
+    left: auto;
+  }
+}
+
+.benefits__link {
+  position: relative;
+  color: #7cad47;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  &:hover {
+    text-decoration: none;
+    color: #7cad47;
+  }
+
+  & span {
+    color: #596689;
+  }
+
+  &:hover::before {
+    position: absolute;
+    right: 27px;
+    top: -15px;
+    content: "";
+    background: url("../../img/icon-question.png") no-repeat;
+    width: 17px;
+    height: 17px;
+  }
+}
