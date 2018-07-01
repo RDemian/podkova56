@@ -1,0 +1,16 @@
+.products {
+  background-color: $color-grey;
+}
+
+.products__title {
+  font-size: 47px;
+  line-height: 43px;
+  color: $color-steel;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.products__elem {
+  background-color: $color-steel;
+  height: 404px;
+}

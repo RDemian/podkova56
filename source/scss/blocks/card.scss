@@ -1,0 +1,33 @@
+.card {
+  position: relative;
+  width: 258px;
+  background-color: $color-grey;
+  border: none;
+  border-radius: none;
+}
+
+.card__you-tube {
+  position: absolute;
+}
+
+.card__list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.card__item {
+  width: 63px;
+  height: 44px;
+  margin-right: 2px;
+  background: url("../../img/bg-card-1.1.png") no-repeat;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.card__name {
+  margin-left: 15px;
+}
+

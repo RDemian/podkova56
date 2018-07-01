@@ -1,0 +1,37 @@
+.exampls__title {
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #bdc4d7;
+}
+
+.exampls__item {
+  font-size: 22px;
+  line-height: 50px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.exampls__btn {
+  background-color: transparent;
+  width: 100%;
+  text-align: left;
+  transition: none;
+  &:focus,
+  &:hover {
+    box-shadow: none;
+    background-color: $color-green;
+    background-image: url(../../img/products-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
+}
+
+.exampls__list {
+  background: linear-gradient(to bottom, $color-steel 68px, $color-grey 68px);
+}
+
+.exampls__card {
+  margin-top: 28px;
+}
