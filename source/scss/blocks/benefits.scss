@@ -1,8 +1,8 @@
 .benefits {
   background-color: $color-grey;
   background-image:
-    url("../../img/bg-rama.png"),
-    url("../../img/triangle-white.png");
+    url("../img/bg-rama.png"),
+    url("../img/triangle-white.png");
   background-repeat: no-repeat;
   background-position: center bottom;
 
@@ -10,7 +10,7 @@
 
 .benefits .content-wrap {
   min-height: 979px;
-  background: url("../../img/bg-benefits.png") no-repeat;
+  background: url("../img/bg-benefits.png") no-repeat;
   background-position: center 60px;
 }
 
@@ -54,8 +54,8 @@
   top: 180px;
   left: 15px;
   background-image:
-    url("../../img/icon-garant.png"),
-    url("../../img/icon-point.png");
+    url("../img/icon-garant.png"),
+    url("../img/icon-point.png");
   &::after {
     border-bottom: 3px dashed $color-steel;
   }
@@ -64,23 +64,23 @@
 .benefits__item--portfolio {
   left: 330px;
   background-image:
-    url("../../img/icon-cup.png"),
-    url("../../img/icon-point.png");
+    url("../img/icon-cup.png"),
+    url("../img/icon-point.png");
 }
 
 .benefits__item--factory {
   right: 330px;
   background-image:
-    url("../../img/icon-factory.png"),
-    url("../../img/icon-point.png");
+    url("../img/icon-factory.png"),
+    url("../img/icon-point.png");
 }
 
 .benefits__item--age {
   top: 180px;
   right: 15px;
   background-image:
-    url("../../img/icon-age-12.png"),
-    url("../../img/icon-point.png");
+    url("../img/icon-age-12.png"),
+    url("../img/icon-point.png");
   &::after {
     border-left: none;
     border-right: 3px dashed $color-steel;
@@ -112,7 +112,7 @@
     right: 27px;
     top: -15px;
     content: "";
-    background: url("../../img/icon-question.png") no-repeat;
+    background: url("../img/icon-question.png") no-repeat;
     width: 17px;
     height: 17px;
   }

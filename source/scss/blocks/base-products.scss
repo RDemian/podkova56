@@ -2,15 +2,15 @@
   height: 780px;
   background-color: $color-steel;
   background-image:
-    url("../../img/bg-rama.png"),
-    url("../../img/triangle-grey.png"),
-    url("../../img/bg-products.png");
+    url("../img/bg-rama.png"),
+    url("../img/triangle-grey.png"),
+    url("../img/bg-products.png");
   background-repeat: no-repeat;
   background-position: center bottom;
 }
 
 .base-products__icon {
-  background: url("../../img/icon-shed.png") no-repeat;
+  background: url("../img/icon-shed.png") no-repeat;
   width: 251px;
   height: 49px;
 }
@@ -87,20 +87,20 @@
   padding: 0;
   width: 27px;
   height: 14px;
-  background: url("../../img/white-left-arrow.png") no-repeat;
+  background: url("../img/white-left-arrow.png") no-repeat;
 
   &:focus,
   &:hover {
-    background: url("../../img/green-left-arrow.png") no-repeat;
+    background: url("../img/green-left-arrow.png") no-repeat;
   }
 }
 
 .base-products__next {
 
-  background: url("../../img/white-right-arrow.png") no-repeat;
+  background: url("../img/white-right-arrow.png") no-repeat;
 
   &:focus,
   &:hover {
-    background: url("../../img/green-right-arrow.png") no-repeat;
+    background: url("../img/green-right-arrow.png") no-repeat;
   }
 }
